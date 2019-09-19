@@ -1,0 +1,12 @@
+def DNA_strand(dna):
+    complement = { "A":"T",
+                  "T":"A",
+                  "C":"G",
+                  "G":"C"
+                 }
+    print(complement['A'])
+    print("".join([complement[x] for x in dna]))
+
+test_list = [x for x in range(1, 11)]
+
+print(test_list)
